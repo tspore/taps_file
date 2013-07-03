@@ -1,0 +1,14 @@
+TAPS is to backup db's 
+
+server -
+    taps server postgres://localdbuser:localdbpass@localhost/dbname httpuser httppassword
+client -
+    taps pull postgres://dbuser:dbpassword@localhost/dbname http://httpuser:httppassword@example.com:5000
+    
+    
+    MORE info here - 
+    https://github.com/ricardochimal/taps
+    
+    
+    
+    I had to create my own gemfile to make it all work. So I am putting it back up in the public. 
